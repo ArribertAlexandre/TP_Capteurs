@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">TP_Capteurs</string>
+    <string name="ex1">Exercice 1</string>
+    <string name="ex2">Exercice 2</string>
+    <string name="ex3">Exercice 3</string>
+    <string name="ex4">Exercice 4</string>
+    <string name="ex5">Exercice 5</string>
+
+
+    <string name="sensor_unavailable">Ce capteur est indisponible</string>
+    <string name="title_humidite">Test capteur humidité</string>
+    <string name="direction">Direction</string>
+    <string name="gauche">Gauche</string>
+    <string name="droite">Droite</string>
+    <string name="haut">Haut</string>
+    <string name="bas">Bas</string>
+
+
+</resources>

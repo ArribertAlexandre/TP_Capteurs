@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_exo1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ex1"/>
+
+    <Button
+        android:id="@+id/btn_exo2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_exo1"
+        android:text="@string/ex2"/>
+    <Button
+        android:id="@+id/btn_exo3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_exo2"
+        android:text="@string/ex3"/>
+
+    <Button
+        android:id="@+id/btn_exo4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_exo3"
+        android:text="@string/ex4"/>
+
+    <Button
+        android:id="@+id/btn_exo5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_exo4"
+        android:text="@string/ex5"/>
+
+</RelativeLayout>
