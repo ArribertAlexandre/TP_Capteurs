@@ -6,10 +6,23 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <TextView
+        android:id="@+id/title_tp1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:text="@string/tp1"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
     <Button
         android:id="@+id/btn_exo1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/title_tp1"
         android:text="@string/ex1"/>
 
     <Button
@@ -38,5 +51,24 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/btn_exo4"
         android:text="@string/ex5"/>
+
+    <TextView
+        android:id="@+id/title_tp2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_exo5"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:text="@string/tp2"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_tp2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_tp2"
+        android:text="@string/tp2"/>
 
 </RelativeLayout>

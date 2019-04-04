@@ -5,15 +5,25 @@
     <string name="ex3">Exercice 3</string>
     <string name="ex4">Exercice 4</string>
     <string name="ex5">Exercice 5</string>
+    <string name="tp2">TP 2</string>
+    <string name="tp1">TP 1</string>
+
 
 
     <string name="sensor_unavailable">Ce capteur est indisponible</string>
+    <string name="calcul_podometre">Calcul de la distance avec le podomètre:</string>
     <string name="title_humidite">Test capteur humidité</string>
     <string name="direction">Direction</string>
     <string name="gauche">Gauche</string>
     <string name="droite">Droite</string>
     <string name="haut">Haut</string>
     <string name="bas">Bas</string>
+    <string name="latitude">Latitude:</string>
+    <string name="longitude">Longitude:</string>
+    <string name="distance">Distance:</string>
+    <string name="podometre">Podometre:</string>
+    <string name="marcher">Veuillez commencer à marcher !</string>
+    <string name="title_activity_maps">Map</string>
 
 
 </resources>

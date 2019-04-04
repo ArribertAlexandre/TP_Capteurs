@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
     Button exercice3;
     Button exercice4;
     Button exercice5;
+    Button tp2;
 
 
 
@@ -64,6 +65,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(getApplicationContext(), Exercice5.class));
+                finish();
+            }
+        });
+
+        tp2 = findViewById(R.id.btn_tp2);
+        tp2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), MapsActivity.class));
                 finish();
             }
         });
